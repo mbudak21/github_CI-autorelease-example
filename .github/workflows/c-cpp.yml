@@ -1,9 +1,7 @@
-name: Main
+name: main
 
 on:
   push:
-    tags:
-      - 'v*' # Match only version tags
 
 jobs:
   build:
